@@ -1,6 +1,7 @@
 package edu.temple.selectionactivity
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.drawable.BitmapDrawable
 import android.provider.MediaStore
@@ -50,11 +51,12 @@ class ImageAdapter (val _context: Context, _imageObjects: Array<Image>, _textVie
 
         holder.imageView.setOnClickListener {
 
-            topImageView.setImageBitmap(largeBitmap)
+            val intent = Intent(context, DisplayActivity::class.java).apply {
+                putExtra("text", images[position].name)
+                putExtra("image", img)
+            }
 
-
-            topImageView.contentDescription = images[position].name
-            topTextView.text = images[position].name
+            context.startActivity(intent)
         }
     }
 

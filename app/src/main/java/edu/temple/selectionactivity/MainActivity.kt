@@ -1,6 +1,7 @@
 package edu.temple.selectionactivity
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
@@ -14,6 +15,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         var recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
 
+        val newImages = getImageData();
+
+
+
         recyclerView.layoutManager = GridLayoutManager(this, 3)
 
 
@@ -23,6 +28,8 @@ class MainActivity : AppCompatActivity() {
 
 
         recyclerView.adapter = ImageAdapter(this, getImageData(), textView, imageView)
+
+
     }
 
 
@@ -42,4 +49,6 @@ class MainActivity : AppCompatActivity() {
         );
         return images
     }
+
+
 }
