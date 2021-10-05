@@ -27,18 +27,18 @@ class MainActivity : AppCompatActivity() {
 
 
     fun getImageData() : Array<Image> {
-        val images = arrayOf(Image("Mountain in China",R.drawable.cheese1),
-            Image("Mountain Fog",R.drawable.cheese2),
-            Image("Gravelly Mountaintop",R.drawable.cheese3),
-            Image("Spiky Icy Mountains",R.drawable.cheese4),
-            Image("Reflection in a lake",R.drawable.cheese5),
-            Image("Mountain-top Trail",R.drawable.cheese6),
-            Image("Orange Canyon",R.drawable.cheese7),
-            Image("Orangish Mountain",R.drawable.cheese8),
-            Image("Swiss Alps",R.drawable.cheese9),
-            Image("Bucegi Mountains",R.drawable.cheese10),
-            Image("Bushy Mountains",R.drawable.cheese11),
-            Image("Desert Mountains",R.drawable.cheese12),
+        val images = arrayOf(Image("cheese1",R.drawable.cheese1),
+            Image("cheese2",R.drawable.cheese2),
+            Image("cheese3",R.drawable.cheese3),
+            Image("cheese4",R.drawable.cheese4),
+            Image("cheese5",R.drawable.cheese5),
+            Image("cheese6",R.drawable.cheese6),
+            Image("cheese7",R.drawable.cheese7),
+            Image("cheese8",R.drawable.cheese8),
+            Image("cheese9",R.drawable.cheese9),
+            Image("cheese10",R.drawable.cheese10),
+            Image("cheese11",R.drawable.cheese11),
+            Image("cheese12",R.drawable.cheese12),
         );
         return images
     }
