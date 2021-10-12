@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">SelectionActivity</string>
+    <string name="app_name" translatable="false">SelectionActivity</string>
+    <string-array name="cheese">
+        <item>cheese one</item>
+        <item>cheese two</item>
+        <item>cheese three</item>
+        <item>cheese four</item>
+        <item>cheese five</item>
+        <item>cheese six</item>
+        <item>cheese seven</item>
+        <item>cheese eight</item>
+        <item>cheese nine</item>
+        <item>cheese ten</item>
+        <item>cheese eleven</item>
+        <item>cheese twelve</item>
+    </string-array>
 </resources>

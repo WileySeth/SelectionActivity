@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cheese">
+        <item>un fromage</item>
+        <item>fromage deux</item>
+        <item>fromage trois</item>
+        <item>fromage quatre</item>
+        <item>fromage cinq</item>
+        <item>fromage six</item>
+        <item>fromage sept</item>
+        <item>fromage huit</item>
+        <item>fromage neuf</item>
+        <item>fromage dix</item>
+        <item>fromage onze</item>
+        <item>fromage douze</item>
+    </string-array>
+</resources>
