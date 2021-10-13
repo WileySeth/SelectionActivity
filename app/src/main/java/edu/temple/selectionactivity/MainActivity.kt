@@ -34,19 +34,19 @@ class MainActivity : AppCompatActivity() {
 
 
     fun getImageData() : Array<Image> {
-        val imgArr = resources.getStringArray(R.array.cheese)
-        val images = arrayOf(Image("cheese1",R.drawable.cheese1),
-            Image("cheese2",R.drawable.cheese2),
-            Image("cheese3",R.drawable.cheese3),
-            Image("cheese4",R.drawable.cheese4),
-            Image("cheese5",R.drawable.cheese5),
-            Image("cheese6",R.drawable.cheese6),
-            Image("cheese7",R.drawable.cheese7),
-            Image("cheese8",R.drawable.cheese8),
-            Image("cheese9",R.drawable.cheese9),
-            Image("cheese10",R.drawable.cheese10),
-            Image("cheese11",R.drawable.cheese11),
-            Image("cheese12",R.drawable.cheese12),
+        val newFrenchStuff = resources.getStringArray(R.array.cheese)
+        val images = arrayOf(Image(newFrenchStuff[0], R.drawable.cheese1),
+                            Image(newFrenchStuff[1],R.drawable.cheese2),
+                            Image(newFrenchStuff[2],R.drawable.cheese3),
+                            Image(newFrenchStuff[3],R.drawable.cheese4),
+                            Image(newFrenchStuff[4],R.drawable.cheese5),
+                            Image(newFrenchStuff[5],R.drawable.cheese6),
+                            Image(newFrenchStuff[6],R.drawable.cheese7),
+                            Image(newFrenchStuff[7],R.drawable.cheese8),
+                            Image(newFrenchStuff[8],R.drawable.cheese9),
+                            Image(newFrenchStuff[9],R.drawable.cheese10),
+                            Image(newFrenchStuff[10],R.drawable.cheese11),
+                            Image(newFrenchStuff[11],R.drawable.cheese12),
         );
         return images
     }
