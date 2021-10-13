@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
 
 
     fun getImageData() : Array<Image> {
-        var newLanguageArr = resources.getStringArray(R.array.cheese)
         val images = arrayOf(Image("cheese1",R.drawable.cheese1),
             Image("cheese2",R.drawable.cheese2),
             Image("cheese3",R.drawable.cheese3),
